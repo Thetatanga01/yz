@@ -6,7 +6,17 @@ authors = ["Mustafa Guven, Vodafone <Mustafa.Guven@vodafone.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.11,<3.13"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.13"
+#langchain-core = "^0.3.28"
+#langchain-core = ">=0.3.27,<0.4.0"
+
+langchain-core = ">=0.1.52,<0.4.0"
+langchain-openai = "^0.2.14"
+pypdf = "^5.1.0"
+pinecone = "^5.4.2"
+langchain-pinecone = "^0.1.0"
 
 
 [build-system]
